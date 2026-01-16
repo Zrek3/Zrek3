@@ -1,0 +1,19 @@
+{
+    "tests": [
+        {
+            "checks": [
+                "File is valid JSON",
+                "Contains 'recommendations' array",
+                "All entries are non-empty strings"
+            ],
+            "name": "Valid extensions.json structure"
+        },
+        {
+            "examples": [
+                "adelphes.android-dev-ext"
+            ],
+            "name": "Extension ID format",
+            "pattern": "^[a-z0-9-]+\\.[a-z0-9-]+$"
+        }
+    ]
+}
